@@ -6,11 +6,31 @@ h1{
 }
 
 p{
-	color: blue;
+	color: black;
 	text-decoration: underline;
 	font-size: 2vw;
 }
 img{
 	max-width: 100%;
+}
+
+.sisalto{
+	overflow: auto;
+}
+
+.vasen{
+	float: left;
+	width: 50%;
 	
+}
+
+.oikea{
+	float: left;
+	width: 50%;
+}
+
+@media only screen and (max-width: 865px){
+	.vasen, .oikea{
+		width: 100%;
+	}
 }
